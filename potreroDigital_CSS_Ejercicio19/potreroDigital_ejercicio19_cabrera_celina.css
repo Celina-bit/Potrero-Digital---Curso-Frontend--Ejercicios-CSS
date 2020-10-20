@@ -1,0 +1,45 @@
+* {
+font-family:  "Open Sans", sans-serif;
+display: flex;
+}
+
+.content {
+  display: flex;
+flex-direction: column;
+}
+
+.subtítulo {
+  font-size: 25px;
+}
+
+.main {
+  color: #777;
+}
+
+.texto {
+flex-direction: column;
+text-align: left;
+line-height : 25px;
+}
+
+
+.parrafo1 {
+  font-style: italic;
+  font-size: 18px;
+
+}
+.parrafo2 {
+  font-size: 15px;
+
+}
+
+#img {
+align-items: flex-end;
+margin: 20px
+}
+
+.pie {
+  color: #777;
+  font-size: 13px;
+
+}

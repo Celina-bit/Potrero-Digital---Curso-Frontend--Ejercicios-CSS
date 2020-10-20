@@ -1,0 +1,36 @@
+/*
+•	TÍTULO:
+o	Color de fondo: rojo (usando palabras)
+o	Color de letra: blanco (usando RGB)
+o	Tipo de fuente: helvética
+o	Subrayado
+
+
+•	SUBTÍTULO:
+o	Color de fondo: azul (usando hexadecimal)
+o	Color de letra: blanco (letras)
+o	Tipo de fuente: sans-serif
+
+
+•	PÁRRAFO:
+o	Negrita
+o	Tamaño de fuente: 16px
+o	Color de fondo: verde (hexadecimal) */
+.titulo1{
+  background-color: red;
+  color rgb(255, 255, 255);
+  font-family: [helvetica];
+  text-decoration: underline;
+}
+
+.subtitulo{
+  background-color: #0016FF;
+  color: white;
+  font-family: sans-serif;
+}
+
+#parrafo{
+  font-weight: bolder;
+  font-size: 16px;
+  background-color: #5AFF00;
+}

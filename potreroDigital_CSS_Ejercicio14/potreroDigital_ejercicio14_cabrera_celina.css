@@ -1,0 +1,59 @@
+/* Diseño para celulares */
+@media screen and (max-width: 768px){
+ /* -Borde rojo oscuco y sólido
+-Color de fondo verde
+-Ancho=20%
+-Altura= 100px
+-margen total:0
+-padding derecho: 9px el resto=0 */
+.pestaña{
+  border: darkred 1px solid;
+  background-color: green;
+  width: 20%;
+  height: 100px;
+  margin: 0;
+  padding-right: 9px;
+}
+}
+
+/* Diseño para laptops */
+@media screen and (min-width: 769px) {
+/* -Borde negro y punteado
+-Color de fondo verde
+-Ancho=20%
+-Altura= 100px
+-margen vertical: 10px
+-Margen horizontal: 6%
+-padding total: 9px */
+  .pestaña{
+  border: black 2px dotted;
+  background-color: green;
+  width: 20%;
+  height: 100px;
+  margin-top: 10px;
+  margin-right: 6%;
+  padding: 9px;
+}
+}
+
+/* Diseño para PC */
+/* Tamaño Computadora:
+-Borde negro y continuo (sólido)
+-Color de fondo rojo
+-Ancho=300px
+-Altura= 20 puntos de pantalla
+-margen vertical: 4px
+-Margen horizontal: 3%
+-padding: 0 */
+@media screen and (min-width: 1024px) {
+
+.pestaña{
+    border: black 1px solid;
+    background-color: red;
+    width: 300px;
+    height: 20vh;
+    margin-top: 4px;
+    margin-right: 3%;
+    padding: 0;
+}
+}
